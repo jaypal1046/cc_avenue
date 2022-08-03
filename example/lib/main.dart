@@ -86,7 +86,7 @@ class _MyAppState extends State<MyApp> {
       );
 
     } on PlatformException {
-      log('PlatformException');
+      print('PlatformException');
     }
   }
 
